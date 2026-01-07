@@ -1,0 +1,47 @@
+# 虚拟环境
+venv/
+env/
+*.env
+
+# 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据库文件
+*.db
+*.sqlite3
+
+# 日志文件
+*.log
+logs/
+
+# 数据目录（如果包含敏感数据）
+# data/
+
+# ChromaDB数据目录
+chroma_data/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows系统文件
+Thumbs.db
+.DS_Store
+
+# 安装包
+*.whl
+*.egg-info/
+build/
+dist/
+
+# 测试文件
+.testing/
+*.pytest_cache/
+
+# 配置文件（如果包含敏感信息）
+# config.toml
+# .env
