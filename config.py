@@ -13,8 +13,8 @@ DATA_FILE = "./data/processed_data_cleaned.json"
 
 # Model Configuration with multilingual support
 # 使用支持中文的多语言模型替代英文模型
-EMBEDDING_MODEL_NAME = './hf_cache/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf'  # Fallback to local English model with improved retrieval logic
-GENERATION_MODEL_NAME = './hf_cache/hub/models--Qwen--Qwen2.5-0.5B/snapshots/060db6499f32faf8b98477b0a26969ef7d8b9987'
+EMBEDDING_MODEL_NAME = 'sentence-transformers/all-MiniLM-L6-v2'  # Hugging Face官方模型名称，会自动下载
+GENERATION_MODEL_NAME = 'Qwen/Qwen2.5-0.5B'  # Hugging Face官方模型名称，会自动下载
 EMBEDDING_DIM = 384 # Must match EMBEDDING_MODEL_NAME
 
 # Indexing and Search Parameters
