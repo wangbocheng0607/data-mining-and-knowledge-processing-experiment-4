@@ -42,6 +42,9 @@ dist/
 .testing/
 *.pytest_cache/
 
+# Hugging Face模型缓存目录
+hf_cache/
+
 # 配置文件（如果包含敏感信息）
 # config.toml
 # .env
